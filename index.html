@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<head></head>
+<style>
+body {
+    font-size: 14px;
+    font-family: arial, sans-serif;
+    color: #222;
+    display: block;
+}
+a {
+    text-decoration: none;
+    margin: 20px 5px 5px 10px;
+}
+a:hover {
+    text-decoration: underline;
+}
+#navleft {
+    display: inline;
+    justify-content: flex;
+    margin-top: 15px;
+    margin-left: 15px;
+}
+#navright {
+    display: inline;
+    justify-content: flex-end;
+    float: right !important;
+}
+#logo {
+    text-align: center;
+    display: block;
+    margin-top: 200px;
+    margin-bottom: 20px;  
+}
+#searchcontainer {
+    display: block; 
+    text-align: center;
+    border: none;
+    margin-bottom: 20px;
+}
+.searchbar {
+    border-radius: 40px;
+    padding: 10px; 20px;
+    width: 500px;
+}
+input:hover {
+    box-shadow: 5px;
+}
+#searchbuttons {
+    display: flex;
+    justify-content: center;
+    margin-top: 35px;
+}
+button {
+    margin-top: 15px;
+    margin-left: 25px;
+    padding: 10px 25px;
+    color: #202124;
+    background-color: #f8f9fa;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    text-align: center;
+}
+.signin {
+    margin-left: 10px;
+    margin-right: 10px;
+    padding: 7px 10px;
+    cursor: pointer;
+    border-radius: 3px;
+    background: #4887ef;
+    color: white;
+    border-radius: 5px;
+}
+
+footer {
+    bottom: 0;
+    position: absolute;
+    flex-wrap: wrap;
+    width: 100%;
+    background-color: #f2f2f2;
+}
+.footer-left {
+    justify-content: flex-start;
+    min-width: 30%;
+    display: flex;
+    float: left;
+}
+.footer-right {
+    justify-content: flex-end;
+    min-width: 30%;
+    display: flex;
+    float: right;
+    margin-right: 50px;
+}
+ul { 
+    list-style-type: none;
+}
+ul a {
+    text-decoration: none;
+}
+</style>
+<body>
+<div id="navleft">
+    <a>About</a>
+    <a>Store</a>
+</div>
+<div id="navright">
+    <a>Gmail</a>
+    <a>Images</a>
+    <button type="submit" class="signin">Sign In</button>   
+</div>
+<div id="logo">
+<img class="logo"  alt="Google Logo" src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png">
+</div>
+<div id="searchcontainer">
+<input type="text" class="searchbar">
+</div>
+<div id="searchbuttons">
+<button type="submit" class="searchbut" value="search">Google Search</button>
+<button type="submit" class="feelinglucky" value="feelinglucky">I'm Feeling Lucky</button>
+</div>
+<footer>
+<ul class="footer-left">
+<li><a href="#">Advertising</a></li>
+<li><a href="#">Business</a></li>
+<li><a href="#">How Search Works</a></li>
+</ul>
+<ul class="footer-right">
+<li><a href="#">Privacy</a></li>
+<li><a href="#">Terms</a></li>
+<li><a href="#">Settings</a></li>
+</ul>
+</footer>
+</body>
+</html>

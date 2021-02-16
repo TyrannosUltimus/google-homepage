@@ -1,1 +1,2 @@
 # google-homepage
+In this project, as per the Odin Project's assignment, I'll be trying to dissemble and then reassemble a webpage. I hope to make strides in my coding by doing so and believe that being able to see changes on a live document will give me greater prowess when writing code. 
